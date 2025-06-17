@@ -1,0 +1,17 @@
+{
+  "name": "gardeners-server",
+  "version": "1.0.0",
+  "description": "Express + MongoDB backend for garden tips",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
+  }
+}
